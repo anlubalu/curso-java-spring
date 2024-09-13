@@ -31,6 +31,7 @@ public class Medico {
 
     private Boolean ativo;
 
+    // O método público recebe um DTO de cadastrar médico com as regras de validação
     public Medico(DadosCadastroMedico dados){
         this.ativo = true;
         this.nome = dados.nome();
@@ -41,6 +42,7 @@ public class Medico {
         this.endereco = new Endereco(dados.endereco());
     }
 
+    // O método atualizar recebe um DTO de atualizar médico com as regras de validação
     public void atualizarInformacoes(DadosAtualizacaoMedico dados) {
         if (dados.nome() != null) {
             this.nome = dados.nome();

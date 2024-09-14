@@ -1,7 +1,7 @@
-package med.vell.api.paciente;
+package med.vell.api.domain.paciente;
 
 import jakarta.validation.Valid;
-import med.vell.api.endereco.DadosEndereco;
+import med.vell.api.domain.endereco.DadosEndereco;
 
 public record DadosAtualizacaoPaciente(
         Long id,

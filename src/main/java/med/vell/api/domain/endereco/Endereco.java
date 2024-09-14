@@ -1,4 +1,4 @@
-package med.vell.api.endereco;
+package med.vell.api.domain.endereco;
 
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;

@@ -1,6 +1,6 @@
-package med.vell.api.paciente;
+package med.vell.api.domain.paciente;
 
-import med.vell.api.endereco.Endereco;
+import med.vell.api.domain.endereco.Endereco;
 
 // O Record aplica os getters e setters para a classe. Podendo se fosse o caso aplicar as anotações para cada campo para validações.
 public record DadosDetalhamentoPaciente(String nome, String email, String telefone, String cpf, Endereco endereco) {

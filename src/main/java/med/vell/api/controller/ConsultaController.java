@@ -17,6 +17,12 @@ public class ConsultaController {
     @Autowired
     private ConsultaRepository repository;
 
+    @GetMapping
+    public ResponseEntity listar(){
+       var list = repository.findAll().stream().map(DadosListagemConsulta::new).toList();
+        return ResponseEntity.ok(list);
+    }
+
     @PostMapping
     @Transactional
     public ResponseEntity agendar(@RequestBody @Valid DadosAgedamentoConsulta dados){

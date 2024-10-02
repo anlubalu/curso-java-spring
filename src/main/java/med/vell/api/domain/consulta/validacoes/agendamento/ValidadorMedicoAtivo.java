@@ -1,4 +1,4 @@
-package med.vell.api.domain.consulta.validacoes;
+package med.vell.api.domain.consulta.validacoes.agendamento;
 
 import med.vell.api.domain.ValidacaoException;
 import med.vell.api.domain.consulta.DadosAgedamentoConsulta;

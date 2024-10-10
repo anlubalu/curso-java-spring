@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("consultas")
 @SecurityRequirement(name = "bearer-key")
+// alt + ins para gerar o teste ou clica em cima do nome da classe
 public class ConsultaController {
 
     @Autowired

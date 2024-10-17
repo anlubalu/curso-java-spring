@@ -1,0 +1,4 @@
+spring:
+  application: api
+  datasource:
+    url: jdbc:mysql://localhost:3306/vollmed_api_teste

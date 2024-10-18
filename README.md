@@ -27,7 +27,7 @@ As principais dependências do projeto incluem:
 http://localhost:8080/v3/api-docs
 ```
 
-## Insomia
+## Insomnia
 ```
 src/main/resources/Insomnia_2024-10-17.json
 ```

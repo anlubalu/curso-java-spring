@@ -21,10 +21,19 @@ As principais dependências do projeto incluem:
 - Spring Boot Starter Test
 - MySQL Connector Java
 - Auth0 JWT
-- JUnit 5
 
 ## Configuração do Banco de Dados
 Certifique-se de que o MySQL esteja instalado e em execução. Crie um banco de dados chamado `vollmed_api` e configure o arquivo `application.yml` com as suas credenciais de banco de dados:
+
+## Spring Docs/Swagger
+```
+http://localhost:8080/v3/api-docs
+```
+
+## Insomia
+```
+src/main/resources/Insomnia_2024-10-17.json
+```
 
 ```properties
     spring:

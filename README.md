@@ -57,7 +57,11 @@ Certifique-se de que o MySQL esteja instalado e em execução. Crie um banco de 
           secret: ${JWT_SECRET:12345678}
 ```
 
-##
-Este projeto está licenciado sob a licença MIT.
+## Docker Mysql
+```
+sudo docker run --name estudo-java -v /www/mysql:/var/lib/mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=minhaSenhaForte -d mysql:8.1 
+```
+
+## Este projeto está licenciado sob a licença MIT.
 
 
